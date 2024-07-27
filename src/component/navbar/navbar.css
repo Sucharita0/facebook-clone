@@ -1,0 +1,101 @@
+.navbar_logo{
+    width: 40px;
+}
+.navbar_leftbar{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.navbar_main{
+    border-bottom: 1px solid #e9ecef;
+}
+/* Container for positioning */
+.search-container {
+    position: relative;
+    width: 300px; 
+    display: flex;
+    
+  }
+  
+  /* Input field styles */
+  .search-input {
+    width: 230px;
+    margin: 5px;
+    padding: 2px;
+    border: none;
+    
+    background-color: rgb(214, 208, 208);
+    border-radius: 15px;
+     /* Ensures padding and border are included in width */
+    font-size: 15px;
+  }
+  
+  /* Search button styles */
+  .search-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px; /* Adjust as needed */
+    height: 100%;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  /* Styling the search icon */
+  .search-button img {
+    width: 100%; /* Make sure the icon fits within the button */
+    height: auto; /* Maintain aspect ratio */
+  }
+  .icon-container{
+    display: flex;
+    
+  }
+  .icon-container span{
+    margin-left: 10px;
+    padding: 5px;
+    width: 180px;
+   
+  }
+  .icon-container .active{
+    border-bottom: 1px solid rgb(0, 119, 255);
+    color: rgb(0, 119, 255);
+    margin-left: 60px;
+  }
+  .nav-righttab{
+    display: flex;
+  }
+  .nav-rightimage{
+    margin-top: 5px;
+  }
+  .nav-profilename{
+    margin-top: 6px;
+    margin-left: 15px;
+    margin-right: 22px;
+  }
+  .icon-bar{
+    display: flex;
+  }
+   .lst-icon{
+    margin-top: 5px;
+    margin-right: 25px;
+    color: black;
+  }
+  .lst-icon .bi{
+    background-color:black;  
+    border: 1px solid black;
+    border: none;
+    border-radius: 60%;
+    color: white;
+    
+  }
+  .nav_btn{
+    width:40px;
+    height: 25px;
+    margin: 3px;
+    
+    font-size: 10px;
+  }
+  

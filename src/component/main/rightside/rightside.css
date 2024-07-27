@@ -1,0 +1,40 @@
+.layout_contain{
+    display: flex;
+    margin: 15px;
+    
+}
+.image_lai{
+    margin-top: 7px;
+    position: relative;
+    
+}
+.image_lai::after{
+    content: '';
+    width: 10px;
+    height: 10px;
+    border: 2px solid #fff;
+   border-radius: 50%;
+   background-color: rgb(27, 194, 63);
+   position: absolute;
+   top: 35px;
+   bottom: 0px;
+   left: 25px;
+   
+}
+
+
+.image_layim{
+    height: 35px;
+    width: 35px;
+    
+}
+.image_tex{
+   margin: 10px; 
+   font-weight: bold;
+   font-size: 14px;
+   
+}
+    
+
+   
+   

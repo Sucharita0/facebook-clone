@@ -1,0 +1,56 @@
+.post-container{
+    
+    width: 590px;
+    margin-top: 20px;
+    border-radius: 15px;
+    
+    
+    
+}
+.post-header{
+    display: flex;
+    gap: 20px;
+}
+.post-poster{
+    width: 590px;
+    
+    border: 1px solid gainsboro;
+}
+.post-poster img{
+    width: 100%;
+}
+.like-counter{
+    display: flex;
+    gap: 20px;
+}
+.like-no{
+    margin-top: 10px;
+}
+.post-tab{
+    display: flex;
+    
+    height: 60px;
+ 
+    
+    border-bottom: 1px solid gainsboro;
+    
+}
+.post-main{
+    display: flex;
+    gap: 10px;
+    margin-left: 100px;
+    margin-top: 17px;
+}
+.post-main img{
+    width: 20px;
+    height: 20px;
+}
+.upload-par{
+    
+    
+    padding: 2px;
+}
+.upload-image{
+    
+}
+
